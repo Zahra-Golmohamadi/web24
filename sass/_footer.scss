@@ -1,0 +1,73 @@
+footer{
+padding-top: 10rem;
+
+li{
+    list-style: disc;
+ }
+ li::marker{
+    color: #079596;
+ 
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+       
+    }
+
+    .btn-newsletters{
+        height: 50px;
+    background: #fe8433;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    transition: all .3s ease;
+    min-width: 152px
+    }
+   strong{
+    p{
+        color: #079596;
+      }
+   }
+  a{
+    color: black;
+  }
+ 
+    .icon{
+        background-color: #079596;
+        border: 1px solid #079596;
+        padding: 4px 7px;
+        border-radius: 2rem;
+        list-style: none;
+    }
+    .icon:hover{
+        background-color: rgb(236, 161, 20);
+        border: 1px solid  rgb(236, 161, 20);
+        
+        transition: 0.5s;
+    }
+    
+ .social{
+   padding-bottom: 3rem;
+  span{
+    color: #079596;
+    
+  }
+
+ }
+ .mini-footer{
+    padding: 20px 0;
+    background: #f8f9fb
+ }
+}
